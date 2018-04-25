@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'FontBenderLight';
+  src: url('./fonts/BenderLight.woff.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.fbl{
+	font-family: FontBenderLight;
+}

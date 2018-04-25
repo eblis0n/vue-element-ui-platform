@@ -1,6 +1,6 @@
 <template>
   <el-container class="layout-container">
-    <el-header class="layout-header">J.A.R.V.I.S.</el-header>
+    <el-header class="layout-header fbl">J.A.R.V.I.S.</el-header>
     <el-container class="main" :class="{ 'hide-sidebar' : isCollapse }">
       <el-aside class="sidebar">
         <el-scrollbar style="height:calc(100% + 17px);">
@@ -48,6 +48,7 @@ export default {
   background: #384058;
   color:#eee;
   line-height: 60px;
+  font-size: 36px;
 }
 .el-menu-vertical-demo:not(.el-menu--collapse) {
   min-height:400px;

@@ -1,6 +1,6 @@
-# my-project
+# vue2.x + element-ui2.x.x管理后台框架
 
-> A Vue.js project
+> 具有顶部，侧边导航栏，面包屑导航的通用管理后台框架
 
 ## Build Setup
 

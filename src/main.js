@@ -8,7 +8,7 @@ import 'normalize.css'
 import 'element-ui/lib/theme-chalk/index.css'
 // import '../static/css/font-awesome.css'
 import 'font-awesome/css/font-awesome.css'
-// import '@/assets/common.css'
+import '@/assets/common.css'
 
 Vue.config.productionTip = false
 

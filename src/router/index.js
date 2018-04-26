@@ -5,6 +5,8 @@ import Layout from '@/views/layout/Layout'
 import Layout2 from '@/views/layout/Layout2'
 import Login from '@/views/Login'
 import Home from '@/views/Home'
+import Product from '@/views/export/Product'
+import Test from '@/views/Test'
 
 Vue.use(Router)
 
@@ -20,6 +22,16 @@ export default new Router({
         path: 'home',
         name: 'Home',
         component: Home
+      },
+      {
+        path: 'test',
+        name: 'Test',
+        component: Test
+      },
+      {
+        path: 'product',
+        name: 'Product',
+        component: Product
       }]
     },
     {
